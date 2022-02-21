@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 64px;
+  position: fixed;
+  width: 100%;
+}
+
+.header-menu {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+
+.header-menu a:hover {
+  color: #747373fb;
+  transition-duration: 0.5s;
+}
+
+.header {
+  background-color: #0000;
+}
+
+.header-scroll {
+  background-color: #141414;
+  z-index: 3;
+}
+
+@media screen and (max-width: 700px) {
+  .header-menu {
+    display: block;
+  }
+}

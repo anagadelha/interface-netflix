@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        class="header-logo"
+        src="/img/netflix-logo.svg"
+        alt="logo da Netflix"
+      />
+      <nav>
+        <ul class="header-menu">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Séries</a></li>
+          <li><a href="#">Filmes</a></li>
+          <li><a href="#">Minha lista</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="main">
+          <h1 class="main-titulo">The Witcher</h1>
+          <p class="main-texto">
+            O mutante Geralt de Rívia é um caçador de monstros que luta para
+            encontrar seu lugar em um mundo onde as pessoas, muitas vezes, são
+            mais perversas do que as criaturas selvagens.
+          </p>
+          <div class="main-botoes">
+            <a class="main-assistir" href="#">
+              <button class="main-botao-assistir">
+                <img
+                  src="/img/icone-assistir.svg"
+                  alt="ícone de assistir"
+                  class="main-icone-assistir"
+                />
+                <div>Assistir</div>
+              </button>
+            </a>
+            <a class="main-informacoes" href="#">
+              <button class="main-botao-informacoes">
+                <div class="main-icone-informacao">
+                  <img
+                    src="/img/icone-informacao.svg"
+                    alt="ícone de assistir"
+                  />
+                </div>
+                <div>Mais informações</div>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="main-lista">
+        <h2>Continuar assistindo</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="/img/stranger-things.jpg" />
+          </div>
+          <div class="item"><img src="/img/nao-olhe.jpg" /></div>
+          <div class="item"><img src="/img/breaking-bad.png" /></div>
+          <div class="item"><img src="/img/brooklyn-99.webp" /></div>
+          <div class="item"><img src="/img/gambito.jpg" /></div>
+        </div>
+        <h2>Em alta</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="/img/nerve.webp" />
+          </div>
+          <div class="item"><img src="/img/black-mirror.jpg" /></div>
+          <div class="item"><img src="/img/eu-nunca.jpg" /></div>
+          <div class="item"><img src="/img/murder.webp" /></div>
+          <div class="item"><img src="/img/orange.jpg" /></div>
+        </div>
+        <h2>Minha lista</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="/img/3.jpg" />
+          </div>
+          <div class="item"><img src="/img/ginny.jpg" /></div>
+          <div class="item"><img src="/img/a-duquesa.jpg" /></div>
+          <div class="item"><img src="/img/alguem-especial.jpg" /></div>
+          <div class="item"><img src="/img/dash.jpg" /></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="icones"></nav>
+      <nav class="footer-nav">
+        <ul class="footer-menu">
+          <li><a class="footer-itens" href="">Idioma e legendas</a></li>
+          <li><a class="footer-itens" href="">Imprensa</a></li>
+          <li><a class="footer-itens" href="">Privacidade</a></li>
+          <li><a class="footer-itens" href="">Entre em contato</a></li>
+          <li><a class="footer-itens" href="">Audiodescrição</a></li>
+          <li><a class="footer-itens" href="">Relação com investidores</a></li>
+          <li><a class="footer-itens" href="">Avisos legais</a></li>
+          <li><a class="footer-itens" href="">Central de ajuda</a></li>
+          <li><a class="footer-itens" href="">Carreiras</a></li>
+          <li><a class="footer-itens" href="">Preferências de cookies</a></li>
+          <li><a class="footer-itens" href="">Cartão pré-pago</a></li>
+          <li><a class="footer-itens" href="">Termos de uso</a></li>
+          <li><a class="footer-itens" href="">Informações corporativas</a></li>
+        </ul>
+      </nav>
+      <button class="footer-button">
+        <a href="" class="footer-link">Código do serviço</a>
+      </button>
+      <p class="footer-texto">© 1997-2022 Netflix, Inc.</p>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+  </body>
+</html>

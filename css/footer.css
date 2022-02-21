@@ -1,0 +1,59 @@
+.footer {
+  margin: 24px auto;
+  max-width: 800px;
+  padding-left: 64px;
+  padding-top: 20px;
+}
+.footer-nav {
+  display: block;
+  margin-top: 24px;
+}
+.footer-menu {
+  font-size: 0.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  color: #888888;
+  padding: 0;
+}
+
+.footer-texto {
+  font-size: 0.7rem;
+  color: #888888;
+  margin-top: 24px;
+}
+
+.footer-button {
+  margin-top: 24px;
+  background: #141414;
+  padding: 8px;
+  border-color: #888888;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.footer-link {
+  color: #888888;
+}
+
+.footer-button a:hover {
+  color: #ffffff;
+}
+
+.footer {
+  color: #888888;
+}
+
+.footer-itens {
+  color: #888888;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding-left: 5px;
+  }
+}
